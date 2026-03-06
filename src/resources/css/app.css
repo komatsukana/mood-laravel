@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    background: #fdfdfd;
+    text-align: center;
+}
+
+.garden {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.petal {
+
+    width: 180px;
+    height: 180px;
+
+    border-radius: 60% 60% 0 60%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transform: rotate(45deg);
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+    transition: 0.3s;
+
+}
+
+.petal:hover {
+    transform: rotate(45deg) scale(1.1);
+}
+
+.petal-inner {
+
+    transform: rotate(-45deg);
+
+    color: white;
+
+    font-weight: bold;
+
+}
+
+.petal-word {
+    font-size: 18px;
+}
+
+.petal-level {
+    font-size: 14px;
+}
+
+.petal-date {
+    font-size: 10px;
+}
